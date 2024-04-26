@@ -29,11 +29,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <ToastContainer />
-          <main>
-            <Header />
+          <Header />
+          <main className=" flex-col items-center justify-between pt-24">
             {children}
-            <Footer />
           </main>
+          <Footer />
         </Providers>
       </body>
     </html>

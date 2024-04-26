@@ -222,7 +222,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                5x1024.
+                Gupta Ji.
               </a>{" "}
               All rights reserved.
             </p>
